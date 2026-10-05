@@ -1,0 +1,5 @@
+# Swap the first and last columns of a matrix.
+import numpy as numpy
+arr=numpy.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+arr[:, [0, -1]] = arr[:, [-1, 0]]
+print(arr)
